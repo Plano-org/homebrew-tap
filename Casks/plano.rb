@@ -16,7 +16,7 @@ cask "plano" do
   homepage "https://plano.sh"
 
   # The bundle is built for macOS 13 and later (0039 D1).
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Plano.app"
 
