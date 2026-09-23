@@ -7,8 +7,8 @@
 # `brew upgrade` moves to the next release, since every release rewrites
 # this file with its own version and checksum.
 cask "plano" do
-  version "0.1.16"
-  sha256 "dc6a9f243ddd17a11ab8bb1619690676fae0bb6f6ce88651a03c6dfcb1e3f959"
+  version "0.1.17"
+  sha256 "477527e0378ed56bed2018fbf82353c13ed180548cb451e8e7297f40af961100"
 
   url "https://github.com/plano-org/releases/releases/download/v#{version}/Plano-#{version}.dmg"
   name "Plano"
