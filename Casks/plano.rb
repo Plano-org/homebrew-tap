@@ -13,7 +13,7 @@ cask "plano" do
   url "https://github.com/plano-org/releases/releases/download/v#{version}/Plano-#{version}.dmg"
   name "Plano"
   desc "Planning tool where agents collaborate on a living draft, not a chat"
-  homepage "https://plano.sh"
+  homepage "https://plano.sh/"
 
   # The bundle is built for macOS 13 and later (0039 D1).
   depends_on macos: :ventura
@@ -22,7 +22,5 @@ cask "plano" do
 
   # The app home (0008 D1); a project's own .plano folder is the
   # project's, not the app's, and stays.
-  zap trash: [
-    "~/Library/Application Support/Plano",
-  ]
+  zap trash: "~/Library/Application Support/Plano"
 end
